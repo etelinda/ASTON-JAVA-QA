@@ -1,0 +1,11 @@
+public class main {
+    public static void main(String[] args) {
+        int firstNumber = a;
+        int secondNumber = b;
+        System.out.println(checkSumSign(firstNumber, secondNumber));
+    }
+    static String checkSumSign(int a, int b) {
+       if a + b > 0
+        System.out.println ("сумма положительная")
+                 if else  if a + b < 0
+                 System.out.println "сумма отрицательная";
