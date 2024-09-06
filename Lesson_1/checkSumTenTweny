@@ -1,0 +1,5 @@
+package Lesson_1
+public static void main {
+  public static boolean checkSumTenTweny(int num1, int num2) {
+    return (num1 + num2 >=10 && num1 + num2 <=20);
+  }
