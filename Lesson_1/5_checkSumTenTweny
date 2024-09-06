@@ -1,7 +1,5 @@
 package Lesson_1
 public static void main {
-int num1;
-int num2;
   public static boolean checkSumTenTweny(int num1, int num2) {
 if (num1 + num2 >=10 && num1 + num2 <=20){  
 return true
