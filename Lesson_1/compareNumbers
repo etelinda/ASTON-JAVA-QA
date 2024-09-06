@@ -1,0 +1,11 @@
+package Lesson_1
+public class main {
+    public static void compareNumbers()    }
+int a = 2;
+int b = 1;
+if (a >= b){
+        System.out.println("a >= b");
+}else {
+        System.out.println("a < b");
+       }    
+}
