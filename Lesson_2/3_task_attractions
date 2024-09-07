@@ -1,0 +1,32 @@
+public class Park {
+        private static class Attraction {
+           private String name; 
+           private int time; 
+           private double cost;
+
+        public Attraction(String name, int time, double cost) {
+            this.name = name;
+            this.time = time;
+            this.cost = cost;
+        }
+        public void printInfo() {
+            System.out.println("Название аттракциона: " + this.name);
+            System.out.printf("Время работы: %d часов" + this.time);
+            System.out.printf("Стоимость посещения: %.2f" + this.cost);
+        }
+    }
+    private Attraction[] attractions;
+    public Park() {
+        attractions = new Attraction[5];
+        attractions[0] = new Attraction("Колесо обозрения", 10, 350.0);
+        attractions[1] = new Attraction("Американские горки", 8, 450.0);
+        attractions[2] = new Attraction("Комната страха", 6, 200.0);
+        attractions[3] = new Attraction("Автодром", 4, 250.0);
+        attractions[4] = new Attraction("Зоопарк", 7, 500.0);
+    }
+      public void printParkInfo() {
+        for (int i = 0; i < attractions.length; i++) {
+            attractions[i].printInfo();
+        }
+    }
+}
