@@ -1,1 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        // Создание массива из 5 объектов класса Employee
+        Employee[] employees = new Employee[5];
+        employees[0] = new Employee("Иван Иванов", "Программист", "ivanov@example.ru", "+79101234567", 100000.0, 30);
+        employees[1] = new Employee("Петр Петров", "Менеджер", "petrov@example.ru", "+78102345678", 80000.0, 40);
+        employees[2] = new Employee("Мария Сидорова", "Бухгалтер", "sidorova@example.ru", "+77003456789", 60000.0, 25);
+        employees[3] = new Employee("Василий Васильев", "Инженер", "vasiljev@example.ru", "+76104567890", 75000.0, 45);
+        employees[4] = new Employee("Дмитрий Дмитриев", "Руководитель отдела", "dmitriev@example.ru", "+75105678901", 120000.0, 55);
 
+        for (int i = 0; i < employees.length; i++) {
+            System.out.println("ФИО сотрудника: " + employees[i].fullName);
+            System.out.println("Должность: " + employees[i].position);
+            System.out.println("Email: " + employees[i].email);
+            System.out.println("Телефон: " + employees[i].phone);
+            System.out.printf("Зарплата: %.2f", employees[i].salary);
+            System.out.println("Возраст: " + employees[i].age);
+        }
+    }
+}
