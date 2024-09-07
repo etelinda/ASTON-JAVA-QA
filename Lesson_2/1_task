@@ -7,8 +7,7 @@ public class Employee {
             private String phone;
             private double salary;
             private int age;
-
-            // Конструктор
+// Конструктор
             public Employee(String fullName,
                             String position,
                             String email,
@@ -22,8 +21,7 @@ public class Employee {
                 this.salary = salary;
                 this.age = age;
             }
-
-            // Метод
+// Метод
             public void printInfo() {
                 System.out.println("ФИО: " + this.fullName);
                 System.out.println("Должность: " + this.position);
@@ -32,15 +30,6 @@ public class Employee {
                 System.out.printf("Зарплата: %.2f", this.salary);
                 System.out.println();
                 System.out.println("Возраст: " + this.age);
-
-                Employee employee = new Employee(
-                        "Марина Иванова",
-                        "QA",
-                        "ivanova@example.com",
-                        "+79811234567",
-                        120000.0,
-                        35);
-                employee.printInfo();
             }
         }
     }
