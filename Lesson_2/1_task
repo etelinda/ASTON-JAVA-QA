@@ -1,1 +1,47 @@
+    public static void main(String[] args) {
+// Класс       
+public class Employee {
+            private String fullName;
+            private String position;
+            private String email;
+            private String phone;
+            private double salary;
+            private int age;
+
+            // Конструктор
+            public Employee(String fullName,
+                            String position,
+                            String email,
+                            String phone,
+                            double salary,
+                            int age) {
+                this.fullName = fullName;
+                this.position = position;
+                this.email = email;
+                this.phone = phone;
+                this.salary = salary;
+                this.age = age;
+            }
+
+            // Метод
+            public void printInfo() {
+                System.out.println("ФИО: " + this.fullName);
+                System.out.println("Должность: " + this.position);
+                System.out.println("Email: " + this.email);
+                System.out.println("Phone: " + this.phone);
+                System.out.printf("Зарплата: %.2f", this.salary);
+                System.out.println();
+                System.out.println("Возраст: " + this.age);
+
+                Employee employee = new Employee(
+                        "Марина Иванова",
+                        "QA",
+                        "ivanova@example.com",
+                        "+79811234567",
+                        120000.0,
+                        35);
+                employee.printInfo();
+            }
+        }
+    }
 
