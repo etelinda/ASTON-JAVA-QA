@@ -65,4 +65,13 @@ public class Dog extends Animals {
             System.out.println("Cat is running over " + length + " meters!");
         }
     }
+@Override
+public void eatFood(int gram) {
+      if (gram > 0) {
+          System.out.printf("Cat ate %d gram of food);
+      } else {
+public void eatFood(int gram) {
+          throw new IllegalArgumentException("Grams should be a positive number!");
+      }
+  }
 }
