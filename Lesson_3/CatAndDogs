@@ -73,5 +73,28 @@ public void eatFood(int gram) {
 public void eatFood(int gram) {
           throw new IllegalArgumentException("Grams should be a positive number!");
       }
+}
+// satiety это  сытость
+public boolean isSatiety() {
+    return satiety;
   }
+public class Main {
+    public static void main(String[] args) {
+        Cat[] cats = new Cat[10];
+        for (int i = 0; i < cats.length; i++) {
+            cats[i] = new Cat();
+        }
+               for (Cat cat : cats) {
+            cat.eatFood(5);
+        }
+        int countSatiety = 0;
+        for (Cat cat : cats) {
+            if (cat.isSatiety()) {
+                countSatiety++;
+            }
+        }
+        System.out.println("Number of well-fed cats" + countSatiety);
+    }
+}
+}
 }
