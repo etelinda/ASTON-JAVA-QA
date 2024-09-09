@@ -78,6 +78,13 @@ public void eatFood(int gram) {
 public boolean isSatiety() {
     return satiety;
   }
+ public void fillBowl(int amount) {
+    if (amount <= bowlCapacity && amount >= 0) { 
+      foodInBowl += amount; 
+    } else {
+      throw new IllegalArgumentException("Bowl can't be less than 0 and more than bowl capacity");
+    }
+
 public class Main {
     public static void main(String[] args) {
         Cat[] cats = new Cat[10];
