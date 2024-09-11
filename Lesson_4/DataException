@@ -1,6 +1,7 @@
-
-public static int[][] createMyArray(String[][] array) {
-    for (int i = 0; i < array.length; i++) {
+public class DataException {
+   public static void main(String[] arg) {
+     public static int[][] createMyArray(String[][] array) {
+        for (int i = 0; i < array.length; i++) {
         for (int j = 0; j < array[i].length; j++) {
             try {
                 array[i][j] = Integer.parseInt(array[i][j]);
