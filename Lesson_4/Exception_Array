@@ -1,1 +1,10 @@
-
+public class ExceptionArray {
+   public static void main(String[] arg) {
+     public static String[][] createMyArray(String[][] array) {
+    if (array.length != 4 || array[0].length != 4) {
+        throw new MyArraySizeException();
+    }
+    return array;
+  }
+}
+}
