@@ -1,5 +1,6 @@
 package Lesson_1
-public class main {
+  public class Main {
+  public static void main(String[] args) {
 public static void checkSumSign() {
         int a = 9;
         int b = -4;
@@ -9,6 +10,7 @@ public static void checkSumSign() {
 System.out.println ("сумма чисел a и b положительная");
     } else {                 
 System.out.println ("сумма чисел a и b отрицательная");
+  }
  }
 }
 }
