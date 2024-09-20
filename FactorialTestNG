@@ -1,15 +1,21 @@
+package junitdemo;
+
 import java.util.Scanner;
-    public class Main {
-      public static void main(String[] args) {
+
+public class Main {
+    public static void main(String[] args) {
         public class Factorial {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        private int number = scanner.nextInt();
-        long factorial = 1;
-        for (int i = 2; i <= number; i++) {
-            factorial *= i;
+            final Scanner scanner = new Scanner(System.in);
+            System.out.print("Введите число: ");
+            long factorial = 1;
+            final int i = 2;
+           for(
+            private final int number = scanner.nextInt();
+            i <=number;i++)
+
+            {
+                factorial *= i;
+            }
+        System.out.println("Факториал числа "+number +" равен "+factorial);
         }
-        System.out.println("Факториал числа " + number + " равен " + factorial);
     }
-}
-}
