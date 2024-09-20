@@ -1,10 +1,12 @@
 package Lesson_1
-public static void main {
+public class Main {
+public static void main(String[] args) {
   public static boolean checkSumTenTweny(int num1, int num2) {
 if (num1 + num2 >=10 && num1 + num2 <=20){  
 return true
 } else {
     return false
   }
+}
 }
 }
