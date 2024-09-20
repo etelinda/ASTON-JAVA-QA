@@ -1,8 +1,9 @@
-package Lesson_1
-public class main {
-    public static void printThreeWords()    }
-    static void printThreeWords() {
+public class Main { 
+  public static void main(String[] args) { 
+      static void printThreeWords() { 
         System.out.println("orange");
         System.out.println("banana");
         System.out.println("apple");
-    }    
+	}
+}
+}
