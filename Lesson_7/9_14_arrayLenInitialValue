@@ -1,0 +1,14 @@
+package Lesson_1
+  import java.util.Arrays;
+    public class Main {
+      public static void main(String[] args) {
+private int[];
+  create Array(int len; int initialValue) {
+    var array = new int[len];
+      for (int i = 0; i < len; i++) {
+        array[i] = initalValue;
+}
+return array;
+}
+}
+}
