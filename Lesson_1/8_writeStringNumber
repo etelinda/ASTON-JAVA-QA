@@ -1,8 +1,0 @@
-package Lesson_1
-public state void main {
-public state void writeStringNumber(String str, int Number) {
-for (int i = 0; num; i++) {
-System.out.println (str);
-}
-}
-}
