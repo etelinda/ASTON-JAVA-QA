@@ -1,8 +1,12 @@
 package Lesson_1
-public class main {
-    public static void checkNumber(int number)    }
-if (number >=0){  
+public class Main {
+public static void main(String[] args) {
+    public static void checkNumber(int number) {
+if (number >=0) {  
 System.out.println("Это число положительное");
-} else {
+}else{
 System.out.println("Это число отрицательное");
+}
+}
+}
 }
