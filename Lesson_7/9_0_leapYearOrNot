@@ -1,5 +1,6 @@
 package Lesson_1
-public static void main {
+public class Main {
+public static void main(String[] args) {
 public static boolean leapYearOrNot(int year) {
 if (year %400 == 0){
 return true
@@ -9,5 +10,6 @@ return false
 return true
 }
 return false
+}
 }
 }
